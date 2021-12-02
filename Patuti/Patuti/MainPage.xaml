@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             x:Class="Patuti.MainPage">
+
+    <!--<skia:SKCanvasView x:Name="canvasView"
+                       PaintSurface="canvasView_PaintSurface"/>-->
+    <Grid>
+        <skia:SKCanvasView x:Name="canvasView" PaintSurface="canvasView_PaintSurface"/>
+        <Grid VerticalOptions="End">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Text="Left" CommandParameter="1" Clicked="ButtonClicked" Padding="10,0,10,0" Grid.RowSpan="2"/>
+            <Button Text="Jump" CommandParameter="2" Clicked="ButtonClicked" Padding="10,0,10,0" Grid.Column="1"/>
+            <Button Text="Dock" CommandParameter="3" Clicked="ButtonClicked" Padding="10,0,10,0" Grid.Row ="1" Grid.Column="1"/>
+            <Button Text="Right" CommandParameter="4" Clicked="ButtonClicked" Padding="10,0,10,0" Grid.Column="2" Grid.RowSpan="2"/>
+        </Grid>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,15 @@
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\bin\Debug\netstandard2.0\Patuti.deps.json
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\bin\Debug\netstandard2.0\Patuti.dll
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\bin\Debug\netstandard2.0\ref\Patuti.dll
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\bin\Debug\netstandard2.0\Patuti.pdb
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.csproj.AssemblyReference.cache
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.AssemblyInfoInputs.cache
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.AssemblyInfo.cs
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.csproj.CoreCompileInputs.cache
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.dll
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\ref\Patuti.dll
+C:\Users\Rey\source\repos\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.pdb

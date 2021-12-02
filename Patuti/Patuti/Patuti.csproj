@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Media\area.png" />
+    <None Remove="Media\background.png" />
+    <None Remove="Media\bg.png" />
+    <None Remove="Media\dock-1.png" />
+    <None Remove="Media\dock-2.png" />
+    <None Remove="Media\dock-3.png" />
+    <None Remove="Media\dock-4.png" />
+    <None Remove="Media\dock-5.png" />
+    <None Remove="Media\idle-1.png" />
+    <None Remove="Media\idle-2.png" />
+    <None Remove="Media\jump-1.png" />
+    <None Remove="Media\jump-2.png" />
+    <None Remove="Media\jump-3.png" />
+    <None Remove="Media\jump-4.png" />
+    <None Remove="Media\jump-5.png" />
+    <None Remove="Media\jump-6.png" />
+    <None Remove="Media\jump-7.png" />
+    <None Remove="Media\left-1.png" />
+    <None Remove="Media\left-2.png" />
+    <None Remove="Media\left-3.png" />
+    <None Remove="Media\left-4.png" />
+    <None Remove="Media\left-6.png" />
+    <None Remove="Media\right-1.png" />
+    <None Remove="Media\right-2.png" />
+    <None Remove="Media\right-3.png" />
+    <None Remove="Media\right-4.png" />
+    <None Remove="Media\right-5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Media\area.png" />
+    <EmbeddedResource Include="Media\background.png" />
+    <EmbeddedResource Include="Media\bg.png" />
+    <EmbeddedResource Include="Media\dock-1.png" />
+    <EmbeddedResource Include="Media\dock-2.png" />
+    <EmbeddedResource Include="Media\dock-3.png" />
+    <EmbeddedResource Include="Media\dock-4.png" />
+    <EmbeddedResource Include="Media\dock-5.png" />
+    <EmbeddedResource Include="Media\idle-1.png" />
+    <EmbeddedResource Include="Media\idle-2.png" />
+    <EmbeddedResource Include="Media\jump-1.png" />
+    <EmbeddedResource Include="Media\jump-2.png" />
+    <EmbeddedResource Include="Media\jump-3.png" />
+    <EmbeddedResource Include="Media\jump-4.png" />
+    <EmbeddedResource Include="Media\jump-5.png" />
+    <EmbeddedResource Include="Media\jump-6.png" />
+    <EmbeddedResource Include="Media\jump-7.png" />
+    <EmbeddedResource Include="Media\left-1.png" />
+    <EmbeddedResource Include="Media\left-2.png" />
+    <EmbeddedResource Include="Media\left-3.png" />
+    <EmbeddedResource Include="Media\left-4.png" />
+    <EmbeddedResource Include="Media\left-6.png" />
+    <EmbeddedResource Include="Media\right-1.png" />
+    <EmbeddedResource Include="Media\right-2.png" />
+    <EmbeddedResource Include="Media\right-3.png" />
+    <EmbeddedResource Include="Media\right-4.png" />
+    <EmbeddedResource Include="Media\right-5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="2.80.3" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+</Project>
